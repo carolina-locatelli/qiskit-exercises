@@ -1,0 +1,82 @@
+SINGLE QUBIT GATES
+1. Which gates are not a single qubit gate? 
+a. S 
+b. RX 
+c. CRx 
+d. swap 
+
+2. Which single qubit gate makes qubits in probabilistic states? 
+a. Rx 
+b. S 
+c.Tdg 
+d. H 
+
+3. Which gate makes Single qubit rotation around/about X axis? 
+a. RX 
+b. X 
+c. Z 
+d. Fourier basis 
+
+4. S gate is equivalent to the square root of which gate? 
+a. X 
+b. TDG
+c. T 
+d. Z 
+
+5. H gate is equivalent to which of the following unitary gate composition? 
+a. u(pi/2,0,pi) 
+b. u(0,0,pi) 
+c. u(0,0,0) 
+d. u(pi,pi,pi) 
+
+6. This gate is pi rotation about X+Z axis and has the ability to change computational basis from |0> to |1>, |+> to |-> and vice versa? 
+a. X 
+b. Y 
+c. H 
+d. Z 
+
+7. Which gate is a single qubit wait cycle and should not be optimized or unrolled? 
+a. X 
+b. Y 
+c. Z 
+d. I
+
+8. Which gate is an opaque gate? 
+a. I 
+b. H 
+c. Rx 
+d. Swap 
+
+9. Which of the following is / are correct about RZ gate? 
+a. Non-diagonal gate. 
+b. Can be virtually implemented in hardware in framechanges. 
+c. It has zero error and duration. 
+d. None of the above. 
+
+10. ? = ~Z**0.5 
+What single qubit gate replaces ‘?’ 
+a. S 
+b. Rx 
+c.Sdg 
+d. CZ 
+
+11. U(thetha , -pi/2, pi/2) is the circuit identity of which single qubit gate?
+a. Ry(theta) 
+b. Rx(theta) 
+c. S 
+d. Tdg 
+
+=================================================================================
+
+SOLUTION: 
+1. c,d 
+2. d 
+3. a 
+4. d 
+5. a 
+6. c 
+7. d 
+8. a 
+9. B,c 
+10. C 
+11. b
