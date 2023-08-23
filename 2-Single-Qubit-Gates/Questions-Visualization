@@ -1,0 +1,41 @@
+SINGLE QUBIT GATE VISUALIZATION
+
+Plot the following in your jupyter notebooks and observe the result:
+Consider having 2 qubits which means q0,q1. 
+Apply:
+H gate to qubit 0
+Z gate to qubit 1
+Y gate to qubit 0
+
+The question remains the same.
+Apply:
+X gate to qubit 0
+S gate to qubit 0
+Z gate to qubit 1
+
+3. What does “Missing Optional Library error” means?
+a. Matplotlib not installed
+b. IPython not installed
+c. Required libraries are not installed.
+d. b&c 
+
+4. What is the correct line of code to execute visualize transition for the Quantum Circuit class having object ‘qc’?
+a. qc = visualize_transition
+b. Visualize_transition(qc , trace = True )
+c. qc.visualize_transition(trace = True)
+d. visualize_transition(qc , trace = True)
+=========================================================
+
+
+
+
+
+
+
+
+
+
+
+ANSWERS:
+3. a and b.
+4. d 
