@@ -1,0 +1,13 @@
+MULTI QUBIT GATES VISUALIZATION
+
+Assume you have 3 qubits q0,q1,q2. 
+Apply the following gates and observe the results:
+CX gate to qubit 1 and qubit 2
+SWAP gate applied to qubit 0.
+
+Assume you have 3 qubits q0,q1,q2.
+Apply the following gates and observe the results:
+CY gate to qubit 0
+CZ gate to qubit 1
+TOFFOLI gate to qubit 2.
+
