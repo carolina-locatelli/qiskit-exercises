@@ -1,0 +1,62 @@
+1. What is the primary use of fidelity in Qiskit?
+a) To measure the time of quantum computations
+b) To measure the similarity between two quantum states
+c) To measure the complexity of a quantum algorithm
+d) To measure the energy of a quantum system
+
+2. Which of the following Qiskit functions is used to compute state fidelity?
+a) fidelity_state()
+b) compute_state_fidelity()
+c) state_fidelity()
+d) fidelity_compute()
+
+3. Quantum process fidelity in Qiskit is used to measure:
+a) The similarity between two quantum gates
+b) The dissimilarity between two quantum states
+c) The speed of a quantum process
+d) The energy required for a quantum process
+
+4. In Qiskit, which function can be used to calculate the average gate fidelity?
+a) average_gate_fidelity()
+b) gate_fidelity_average()
+c) avg_gate_fidelity()
+d) gate_avg_fidelity()
+
+5. If the fidelity of two quantum states is 1 in Qiskit, what does it mean?
+a) The states are completely different
+b) The states are identical
+c) The states are orthogonal
+d) The states are entangled
+
+6. How can the fidelity between a noisy operation and the intended quantum operation be calculated in Qiskit?
+a) Using the average_gate_fidelity() function
+b) Using the process_fidelity() function
+c) Using the state_fidelity() function
+d) Using the fidelity_measure() function
+
+7. What is the range of values that quantum state fidelity can take in Qiskit?
+a) 0 to 1
+b) -1 to 1
+c) 0 to infinity
+d) Any real number
+
+8. Which of the following is true about quantum fidelity?
+a) Fidelity is a measure of quantum entanglement
+b) Fidelity is not affected by quantum noise
+c) Fidelity can be used to measure how closely a quantum computer can reproduce the desired state
+d) Fidelity is used to measure the speed of quantum computation
+
+
+
+_____________________
+ANSWERS:
+1. b 
+2. c 
+3. a
+4. a
+5. b
+6. b - EXPLANATION
+Process fidelity is a measure of how closely a given quantum operation (often noisy) matches the intended quantum operation. It's a crucial metric for evaluating the performance of quantum gates and operations.
+7. a
+8. c 
+
