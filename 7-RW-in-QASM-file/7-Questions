@@ -1,0 +1,60 @@
+Read and Write quantum assembly language for the code given below:
+qc = QuantumCircuit(QuantumRegister(4, 'IBM'), ClassicalRegister(4, 'EXAM'))
+qc.cx(0,1)
+qc.rx(pi/2,1)
+qc.ry(pi,2)
+qc.ch(2,3)
+qc.draw('mpl')
+
+Read and Write quantum assembly language for the code given below:
+qc = QuantumCircuit(2)
+qc.measure_all()
+qc.draw('mpl')
+
+1. What does the QASM file format represent in Qiskit?
+a) Quantum Assembly Language
+b) Quantum Algorithm Specification
+c) Quantum State Machine
+d) Quantum Application System Model
+ 
+2. How do you convert a quantum circuit qc to a QASM string in Qiskit?
+a) qc.to_qasm()
+b) qc.qasm()
+c) qc.from_qasm()
+d) qc.export_qasm()
+
+3. What is the primary purpose of a QASM file in Qiskit?
+a) To store quantum circuits in a human-readable format
+b) To visualize quantum circuits
+c) To manage memory in a quantum computer
+d) To represent quantum states
+
+4. Which Qiskit function is used to create a QuantumCircuit object from a QASM string?
+a) QuantumCircuit.from_qasm_string()
+b) QuantumCircuit.import_qasm_string()
+c) QuantumCircuit.load_qasm_string()
+d) QuantumCircuit.parse_qasm_string()
+
+5. What is the file extension typically used for QASM files?
+a) .qasm
+b) .qsm
+c) .qac
+d) .qsc
+
+6. What keyword is used in a QASM file to define a quantum register?
+a) qreg
+b) qubit
+c) qregister
+d) qarray
+
+
+
+___________________________
+
+ANSWERS:
+a
+b 
+a
+a
+a 
+a 
